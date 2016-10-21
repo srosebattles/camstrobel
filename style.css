@@ -1,0 +1,73 @@
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.opllogo {
+  margin-top: 20px;
+  position: relative;
+  z-index: 10;
+  width: 75px;
+  height: 60px;
+  display: block;
+  background: url("https://s3.amazonaws.com/onepagelove/one-page-love-award-left.png") no-repeat;
+}
+
+.leftcontainer {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+  float: left;
+}
+
+.rightcontainer {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.headshot {
+  display: block;
+  margin: auto;
+  width: 170px;
+  height: 170px;
+  border-radius: 200px;
+  position: relative;
+}
+
+.howdie {
+  text-align: center;
+  font-size: 14px;
+  color: whitesmoke;
+  margin-top: 30px;
+}
+
+.mytitle {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.button {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 30px auto;
+  width: 200px;
+  height:30px;
+  line-height: 22px;
+  color: whitesmoke;
+  background-color: blue;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: whitesmoke;
+  text-decoration: none;
+}
